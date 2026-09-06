@@ -1,0 +1,6 @@
+C:\Users\levis\Downloads\CheckerTemplate -ModLabs\CheckerTemplate\ModLabs\bin\Debug\ModLabsTemp.dll
+C:\Users\levis\Downloads\CheckerTemplate -ModLabs\CheckerTemplate\ModLabs\bin\Debug\ModLabsTemp.pdb
+C:\Users\levis\Downloads\CheckerTemplate -ModLabs\CheckerTemplate\ModLabs\obj\Debug\CheckerTemp.csproj.AssemblyReference.cache
+C:\Users\levis\Downloads\CheckerTemplate -ModLabs\CheckerTemplate\ModLabs\obj\Debug\CheckerTemp.csproj.CoreCompileInputs.cache
+C:\Users\levis\Downloads\CheckerTemplate -ModLabs\CheckerTemplate\ModLabs\obj\Debug\ModLabsTemp.dll
+C:\Users\levis\Downloads\CheckerTemplate -ModLabs\CheckerTemplate\ModLabs\obj\Debug\ModLabsTemp.pdb
