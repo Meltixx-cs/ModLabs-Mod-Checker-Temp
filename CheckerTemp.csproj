@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0"
+         DefaultTargets="Build"
+         xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+
+		<ProjectGuid>{7CDE3A1D-3AA0-455E-855B-E24413DB1FDE}</ProjectGuid>
+
+		<OutputType>Library</OutputType>
+		<AppDesignerFolder>Properties</AppDesignerFolder>
+
+		<RootNamespace>ModLabsTemp</RootNamespace>
+		<AssemblyName>ModLabsTemp</AssemblyName>
+
+		<TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+		<FileAlignment>512</FileAlignment>
+
+		<!-- Gorilla Tag install locations -->
+		<GorillaTagPath>C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag</GorillaTagPath>
+		<ManagedPath>$(GorillaTagPath)\Gorilla Tag_Data\Managed</ManagedPath>
+		<BepInExPath>$(GorillaTagPath)\BepInEx\core</BepInExPath>
+	</PropertyGroup>
+
+	<!-- DEBUG -->
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+
+		<OutputPath>bin\Debug\</OutputPath>
+
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+
+	<!-- RELEASE -->
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+
+		<OutputPath>bin\Release\</OutputPath>
+
+		<DefineConstants>TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+
+	<!-- GAME / BEPINEX REFERENCES -->
+	<ItemGroup>
+
+		<Reference Include="UnityEngine">
+			<HintPath>$(ManagedPath)\UnityEngine.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+		
+		<Reference Include="Assembly-CSharp">
+			<HintPath>$(ManagedPath)\Assembly-CSharp.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+
+		<Reference Include="BepInEx">
+			<HintPath>$(BepInExPath)\BepInEx.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+
+		<Reference Include="Photon3Unity3D">
+			<HintPath>$(ManagedPath)\Photon3Unity3D.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+
+		<Reference Include="PhotonRealtime">
+			<HintPath>$(ManagedPath)\PhotonRealtime.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+
+		<Reference Include="PlayFab">
+			<HintPath>$(ManagedPath)\PlayFab.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+
+		<Reference Include="Unity.TextMeshPro">
+			<HintPath>$(ManagedPath)\Unity.TextMeshPro.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>$(ManagedPath)\UnityEngine.CoreModule.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+
+		<Reference Include="UnityEngine.PhysicsModule">
+			<HintPath>$(ManagedPath)\UnityEngine.PhysicsModule.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+
+		<Reference Include="UnityEngine.UI">
+			<HintPath>$(ManagedPath)\UnityEngine.UI.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+
+		<Reference Include="UnityEngine.UIModule">
+			<HintPath>$(ManagedPath)\UnityEngine.UIModule.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<AppDesigner Include="Properties\" />
+	</ItemGroup>
+
+	<!-- SOURCE FILES -->
+	<ItemGroup>
+
+		<Compile Include="GTUtility.cs" />
+
+		<Compile Include="Microsoft\CodeAnalysis\EmbeddedAttribute.cs" />
+
+		<Compile Include="PlayerFPS.cs" />
+
+		<Compile Include="Properties\AssemblyInfo.cs" />
+
+		<Compile Include="SimpleInputs.cs" />
+
+		<Compile Include="ModLabsCheckerTemp\CheckerTemp.cs" />
+
+	</ItemGroup>
+
+	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+
+</Project>
