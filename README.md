@@ -11,7 +11,7 @@
 
 <br>
 
-<img src="images/modlabs-checker.png" width="750" alt="ModLabs Mod Checker">
+<img src="modlabs-checker.png" width="750" alt="ModLabs Mod Checker">
 
 <br>
 
@@ -37,7 +37,7 @@ The template includes player information, cosmetics, mod detection, an interacti
 
 <div align="center">
 
-<img src="images/modlabs-checker.png" width="800" alt="ModLabs Mod Checker in Gorilla Tag">
+<img src="modlabs-checker.png" width="800" alt="ModLabs Mod Checker">
 
 *ModLabs Mod Checker Temp running in Gorilla Tag*
 
