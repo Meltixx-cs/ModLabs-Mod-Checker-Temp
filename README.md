@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🦍 ModLabs Mod Checker Temp
+#  ModLabs Mod Checker Temp
 
 ### A customizable Gorilla Tag mod-checker template built for ModLabs
 
@@ -15,25 +15,18 @@
 
 <br>
 
-**A simple starting point for creating your own Gorilla Tag mod checker.**
+
 
 </div>
 
 ---
 
-## 📖 About
-
-**ModLabs Mod Checker Temp** is a customizable Gorilla Tag mod-checker template.
-
-It provides a ready-made VR interface that you can modify and build upon for your own project instead of creating a checker UI completely from scratch.
-
-The template includes player information, cosmetics, mod detection, an interactive VR menu, and several customization options.
 
 
 
 ---
 
-## 📸 Preview
+##  Preview
 
 <div align="center">
 
@@ -45,7 +38,7 @@ The template includes player information, cosmetics, mod detection, an interacti
 
 ---
 
-## 📥 Installation
+##  Installation
 
 ### How to use
 
