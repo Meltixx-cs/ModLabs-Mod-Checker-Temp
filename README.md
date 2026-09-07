@@ -1,7 +1,7 @@
 <div align="center">
 
 #  ModLabs Mod Checker Temp
-
+## https://discord.gg/Tp2XKjSMN3
 ### A customizable Gorilla Tag mod-checker template built for ModLabs
 
 ![GitHub Downloads](https://img.shields.io/github/downloads/Meltixx-cs/ModLabs-Mod-Checker-Temp/total?style=for-the-badge&logo=github&label=Downloads)
@@ -43,7 +43,7 @@
 
 <img src="modlabs-checker.png" width="800" alt="ModLabs Mod Checker">
 
-*ModLabs Mod Checker Temp running in Gorilla Tag*
+*Tuff Checker*
 
 </div>
 
