@@ -4,9 +4,9 @@
 
 ### A customizable Gorilla Tag mod-checker template built for ModLabs
 
-![GitHub Downloads](https://img.shields.io/github/downloads/YOUR-GITHUB-USERNAME/YOUR-REPO-NAME/total?style=for-the-badge&logo=github&label=Downloads)
-![GitHub Stars](https://img.shields.io/github/stars/YOUR-GITHUB-USERNAME/YOUR-REPO-NAME?style=for-the-badge&logo=github)
-![GitHub Release](https://img.shields.io/github/v/release/YOUR-GITHUB-USERNAME/YOUR-REPO-NAME?style=for-the-badge&logo=github&label=Latest)
+![GitHub Downloads](https://img.shields.io/github/downloads/Meltixx-cs/ModLabs-Mod-Checker-Temp/total?style=for-the-badge&logo=github&label=Downloads)
+![GitHub Stars](https://img.shields.io/github/stars/Meltixx-cs/ModLabs-Mod-Checker-Temp?style=for-the-badge&logo=github)
+![GitHub Release](https://img.shields.io/github/v/release/Meltixx-cs/ModLabs-Mod-Checker-Temp?style=for-the-badge&logo=github&label=Latest)
 ![Discord](https://img.shields.io/discord/1360414283346743429?style=for-the-badge&logo=discord&logoColor=white&label=Discord)
 
 <br>
