@@ -11,9 +11,20 @@
 
 <br>
 
+##  Installation
+
+### How to use
+
+1. Download the .zip file
+2. Extract it
+3. Locate the ModLabs folder with all the scripts 
+4. Shift right click in the folder click open with visual studio
+5. Find ModLabsCheckerTemp/CheckerTemp.cs
+6. Do CRTL + F and search for "ModLabsTemp"
+7. Change everything thats highlighted to your checker name
+8. Thats it have fun!
 
 
-<br>
 
 
 
@@ -38,18 +49,5 @@
 
 ---
 
-##  Installation
 
-### How to use
 
-1. Download the .zip file
-2. Extract it
-3. Locate the ModLabs folder with all the scripts 
-4. Shift right click in the folder click open with visual studio
-5. Find ModLabsCheckerTemp/CheckerTemp.cs
-6. Do CRTL + F and search for "ModLabsTemp"
-7. Change everything thats highlighted to your checker name
-8. Thats it have fun!
-
-```text
-Gorilla Tag/BepInEx/plugins/
