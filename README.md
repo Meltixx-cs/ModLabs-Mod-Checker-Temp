@@ -11,7 +11,7 @@
 
 <br>
 
-<img src="modlabs-checker.png" width="750" alt="ModLabs Mod Checker">
+
 
 <br>
 
